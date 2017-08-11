@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desired_league_bg"
+    tools:context="com.gelves.uriel.swooshapplicationprogram.Final">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/swoosh_logo"
+        android:layout_marginTop="31dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dleague"
+        android:textColor="@color/textWhite"
+        android:textSize="20sp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mens"
+        android:background="@color/btncolor"
+        android:textColor="@color/textWhite"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/menbtn"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/womens"
+        android:background="@color/btncolor"
+        android:textColor="@color/textWhite"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/menbtn"
+        android:layout_alignLeft="@+id/menbtn"
+        android:layout_alignStart="@+id/menbtn"
+        android:layout_alignRight="@+id/menbtn"
+        android:layout_alignEnd="@+id/menbtn"
+        android:id="@+id/womenbtn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/co_ed"
+        android:layout_marginTop="20dp"
+        android:background="@color/btncolor"
+        android:textColor="@color/textWhite"
+        android:id="@+id/coedbtn"
+        android:layout_below="@+id/womenbtn"
+        android:layout_alignRight="@+id/womenbtn"
+        android:layout_alignEnd="@+id/womenbtn"
+        android:layout_marginBottom="15dp"
+        android:layout_alignLeft="@+id/womenbtn"
+        android:layout_alignStart="@+id/womenbtn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nxtbtn"
+        android:background="@color/btncolor"
+        android:textColor="@color/textWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/coedbtn"
+        android:layout_alignEnd="@+id/coedbtn"
+        android:id="@+id/nxtbtn"
+        android:layout_marginBottom="13dp"
+        android:layout_alignLeft="@+id/coedbtn"
+        android:layout_alignStart="@+id/coedbtn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textWhite"
+        android:textSize="30sp"
+        android:text="@string/help"
+        android:id="@+id/help"
+        android:visibility="invisible"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/coedbtn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

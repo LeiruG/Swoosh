@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Swoosh</string>
+    <string name="btnQ">Get Started</string>
+    <string name="gai">GO ALL IN</string>
+    <string name="ogao">ON GOING ALL OUT</string>
+    <string name="leaguecaption">Find a team in your city &amp; dominate the league</string>
+    <string name="iama">I am a:</string>
+    <string name="beginner">Beginner</string>
+    <string name="baller">Baller</string>
+    <string name="fin">FINISH</string>
+    <string name="dleague">Desired League:</string>
+    <string name="mens">Mens</string>
+    <string name="womens">Womens</string>
+    <string name="co_ed">Co-Ed</string>
+    <string name="nxtbtn">NEXT</string>
+    <string name="help">HELP</string>
+</resources>
